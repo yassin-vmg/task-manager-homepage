@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduWeb</title>
+  <meta name="title" content="EduWeb">
+  <meta name="description" content="">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- - favicon  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- - custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link  href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"rel="stylesheet">
+  <!-- - preload images -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-4X4DRpPDGwNZWPWTlPIJ5xz0QIsyTzKlN8zjGKAqazUuALhDzrBNcXCX3JAM5quC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- Animate on scroll library cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body id="top">
+  <!-- *********************************************************************** start header ***************************************************************************-->
+  
+  <!-- Start Header -->
+  <div class="header" id="header">
+    <div class="container">
+      <a href="index.html">
+        <img src="./assets/images/logo.svg" data-aos="fade-down" data-aos-duration="700" width="162" height="50" alt="EduWeb logo">
+      </a>
+      <ul class="main-nav">
+        <li><a href="#universites" data-aos="fade-down" data-aos-duration="700">Universités</a></li>
+        <li><a href="#avis" data-aos="fade-down" data-aos-duration="700" >Avis</a></li>
+        <li><a href="#features" data-aos="fade-down" data-aos-duration="700">Conditions de Bourse</a></li>
+        <i class='bx bxs-sun' title="light mode"></i>
+        <i class='bx bxs-moon' title="dark  mode"></i>        
+        <li>
+          <a href="#" data-aos="fade-down" data-aos-duration="700"><i class="fas fa-bars"></i>
+          </a>
+          <!-- Start Megamenu -->
+          <div class="mega-menu">
+            <ul class="links">
+              <li><a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a></li>
+              <li><a href="bourse .html"><i class="fas fa-search"></i>Trouver des Bourses</a></li>
+              <li><a href="formulaire.html"><i class="far fa-user fa-fw"></i>Inscription</a></li>
+            </ul>
+            <ul class="links">
+              <li><a href="Baccalaureat.html"><i class="fas fa-graduation-cap"></i>Bourse Baccalaureat</a></li>
+              <li><a href="master.html"><i class="fas fa-user-graduate"></i>Bourse Master</a></li>
+              <li><a href="doctorat.html"><i class="fas fa-clipboard-check"></i>Bourse Doctorat</a></li>
+            </ul>
+          </div>
+          <!-- End Megamenu -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Header -->
+  
+  <!-- *********************************************************************** end header ***************************************************************************-->
+
+  <main>
+      <!-- *********************************************************************start slider ****************************************************************** -->
+      <section aria-label="Newest Photos" id="slider">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <img src="campusfrance.jpg" alt="Nature Image #1">
+            </li>
+            <li class="slide">
+              <img src="img2.jpg" alt="Nature Image #2">
+            </li>
+            <li class="slide">
+              <img src="img3.jpg" alt="Nature Image #3">
+            </li>
+          </ul>
+          <div id="animation-container">
+            <p class="carousel-paragraph" data-aos="fade-up" data-aos-duration="700">Explorez les opportunités de bourses offertes par différentes universités</p>
+          </div>
+        </div>
+      </section>
+      <!-- ********************************************************************* end slider ****************************************************************** -->
+       
+      <!-- ********************************************************************* start universites partenaires *************************************************************** -->
+      
+      <section class="section course" id="universites" aria-label="course">
+        <div class="container">
+          <h2 class="main-title" data-aos="fade-right" data-aos-duration="900">Universités partenaires</h2>
+          <ul class="grid-list">
+            <li>
+              <div class="course-card" data-aos="fade-right" data-aos-duration="900">
+              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                <img src="./assets/images/uni2.jpg" width="370" height="220" loading="lazy"
+                  alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3">
+                  <a href="https://www.universite-paris-saclay.fr/" target="_blank" class="card-title"> Université Paris-Saclay</a>
+                </h3>
+                <div class="wrapper">
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="rating-text">(4.0 | 203 évaluations)</p>
+                </div>
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">13 spécialté</span>
+                  </li>
+                  <li class="card-meta-item">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">4200 Etudiants</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li>
+                <div class="course-card" data-aos="fade-right" data-aos-duration="900">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/uni1.jpg" width="370" height="220" loading="lazy"
+                    alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="https://www.sorbonne-universite.fr/" target="_blank" class="card-title">Université Sorbonne</a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>                   
+                    </div>
+                    <p class="rating-text">(5.0 | 316 évaluations)</p>
+                  </div>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">8 spécialtés</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">4600 Etudiants</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card" data-aos="fade-right"data-aos-duration="900">
+              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                <img src="./assets/images/Université de Montpellier.jpg" width="370" height="220" loading="lazy"
+                  alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3">
+                  <a href="https://www.umontpellier.fr/" target="_blank" class="card-title">Université de Montpellier</a>
+                </h3>
+
+                <div class="wrapper">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    
+                  </div>
+
+                  <p class="rating-text">(3.0 | 300 évaluations)</p>
+
+                </div>
+
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">20 spécialtés</span>
+                  </li>
+                  <li class="card-meta-item">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">5100 Etudiants</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+            <li>
+              <div class="course-card" data-aos="fade-right"data-aos-duration="900" data-aos-duration="900">
+              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                <img src="./assets/images/GA.jpg" width="370" height="220" loading="lazy"
+                  alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+              </figure>
+          <div class="card-content">
+                <h3 class="h3">
+                  <a href="https://www.univ-grenoble-alpes.fr/" target="_blank" class="card-title">Université Grenoble Alpes</a>
+                </h3>
+                <div class="wrapper">
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="rating-text">(3.0 | 210 évaluations)</p>
+                </div>
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">7 spécialtés</span>
+                  </li>
+                  <li class="card-meta-item">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">1800 Etudiants</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li>
+              <div class="course-card" data-aos="fade-right"data-aos-duration="900" data-aos-duration="900">
+              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                <img src="./assets/images/am.jpg" width="370" height="220" loading="lazy"
+                  alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3">
+                  <a href="https://www.univ-amu.fr/" target="_blank" class="card-title">Université Aix-Marseille</a>
+                </h3>
+                <div class="wrapper">
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>                
+                  </div>
+                  <p class="rating-text">(3.0 | 230 évaluations)</p>
+                </div>
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">11 spécialtés</span>
+                  </li>
+                  <li class="card-meta-item">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">2300 Etudiants</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li>
+                <div class="course-card" data-aos="fade-right"data-aos-duration="900" data-aos-duration="900">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/R.jpg" width="370" height="220" loading="lazy"
+                    alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+                </figure>
+                <div class="card-content">             
+                  <h3 class="h3">
+                    <a href="https://psl.eu/en" target="_blank" class="card-title">Université PSL</a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>  
+                    </div>
+                    <p class="rating-text">(4.0 | 360 évaluations)</p>
+                  </div>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">15 spécialtés</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">3300 Etudiants</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- ********************************************************************* end universites partenaires **************************************************************** -->
+      
+      <!-- ********************************************************************* start avis **************************************************************** -->
+       
+      <section id="avis" aria-label="avis">
+        <div class="section__container">
+          <div class="header__random">
+            <h2 class="main-title" data-aos="zoom-in">TÉMOIGNAGES</h2>
+          </div>
+          <div class="testimonials__grid__random">
+            <div class="card__random" data-aos="zoom-in">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                EduWeb a été mon allié de confiance dans la recherche de bourses internationales,
+                 fournissant des conseils précieux à chaque étape du processus.
+              </p>
+              <hr />
+              <img src="assets/images/ahmed.jpg" alt="user" />
+              <p class="name__random">Ahmed Brahem</p>
+            </div>
+            <div class="card__random" data-aos="zoom-in">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Grâce à l'expertise dédiée d'EduWeb, j'ai pu accéder à des bourses 
+                prestigieuses et concrétiser mon projet d'études à l'étranger sans tracas ni stress excessif.
+              </p>
+              <hr />
+              <img src="assets/images/etud3.jpg" alt="user" />
+              <p class="name__random">Pierre Duval</p>
+            </div>
+            <div class="card__random" data-aos="zoom-in">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Mon expérience avec EduWeb a été exceptionnelle ; 
+                leur équipe compétente a pu ouvrir les portes de mon éducation internationale.
+              </p>
+              <hr />
+              <img src="assets/images/etud.jpg" alt="user" />
+              <p class="name__random">Sophie Giroud</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ********************************************************************* end avis **************************************************************** -->
+    </main> 
+    
+    <!-- *****************************************************************************Start Features *********************************************************************** -->
+    <div class="features" id="features">
+      <h2 class="main-title" data-aos="fade-zoom-in"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Conditions de Bourse</h2>
+      <div class="container">
+        <div class="box quality" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="img-holder"><img src="features-01.jpg" alt="" /></div>
+          <h2>Licence</h2>
+          <p>
+            Cette bourse est destinée aux étudiants âgés de 18 à 22 ans, ayant un niveau d'étude de baccalauréat.</p>
+          <a href="Baccalaureat.html">EN SAVOIR PLUS</a>
+        </div>
+        <div class="box time" data-aos="fade-zoom-in"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="img-holder"><img src="features-02.jpg" alt="" /></div>
+          <h2>Master</h2>
+          <p>Cette bourse est dédiée aux candidats âgés de 22 à 30 ans, ayant un niveau d'études baccalauréat +3.</p>
+          <a href="master.html">EN SAVOIR PLUS</a>
+        </div>
+        <div class="box passion" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="img-holder"><img src="features-03.jpg" alt="" /></div>
+          <h2>Doctorat</h2>
+          <p>
+            Cette bourse vise les candidats âgés de 25 à 40 ans, titulaires d'un niveau d'études minimum de baccalauréat +5.</p>
+          <a href="doctorat.html">EN SAVOIR PLUS</a>
+        </div>
+      </div>
+    </div>
+    <!-- *****************************************************************************End Features ************************************************************************** -->
+  
+    <!-- *****************************************************************************Start Footer ************************************************************************** -->
+     <!-- Start Stats -->
+     <div class="stats" id="stats">
+      <h2 data-aos="zoom-in" data-aos-duration="900">Statistiques</h2>
+      <div class="container">
+        <div class="box" data-aos="fade-right" data-aos-duration="700">
+          <i class="fas fa-graduation-cap" style="font-size: 30px;"></i>
+          <span class="number" data-goal="150">6</span>
+          <span class="text">UNIVERSITÉS PARTENAIRES
+          </span>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="800"> 
+          <i class="fas fa-award" style="font-size: 30px;"></i>
+
+          <span class="number" data-goal="135">12</span>
+          <span class="text">BOURSES D'ÉTUDES</span>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="900">
+          <i class="fas fa-globe-asia fa-2x fa-fw" style="font-size: 30px;"></i>
+          <span class="number" data-goal="50">20</span>
+          <span class="text">Pays</span>
+        </div>
+        <div class="box" data-aos="fade-right" data-aos-duration="1000">
+          <i class="fas fa-user-graduate" style="font-size: 30px;"></i>
+          <span class="number" data-goal="500">1300</span>
+          <span class="text">Etudiant Inscrit</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Stats -->
+    <div class="footer" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+      <div class="container">
+        <div class="box">
+          <h3>Réseaux sociaux
+          </h3>
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/EduWeb" target="_blank" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@eduwebpl" target="_blank" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            Agence française pour la promotion de l’enseignement supérieur, l’accueil et la mobilité internationale
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">Rechercher ma formation
+            </a></li>
+            <li><a href="#">Mieux préparer son projet d'études</a></li>
+            <li><a href="#">S'informer sur le coût des études</a></li>
+            <li><a href="#">EduWeb vous accompagne</a></li>
+            <li><a href="#">A propos de EduWeb</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Cité Taffala (Ibn Khaldoun) 4003 Sousse Tunisie</div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Heures d'ouverture: de 10h00 à 18h00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+216 73 382 656</span>
+              <span>+216 73 382 658</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <div class="image">
+            <img src="fim1.png" alt="" />
+            <img src="fim2.jpg" alt="" />
+            <img src="fim3.png" alt="" />
+            <img src="fim4.jpg" alt="" />
+            <img src="fim5.png" alt="" />
+            <img src="fim6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <p class="copyright">©2024 EDUWEB
+
+      </p>
+    </div>
+    <a href="#" class="to-top" >
+      <i class="fas fa-angle-double-up"></i>
+    </a>
+    <section class="not"  >
+      <span class="overlay"></span>
+      <div class="modal-box">
+        <i class="fa-regular fa-circle-check"></i>
+        <h2>Bienvenue sur EdWeb</h2>
+        <br>
+        <h3>Découvrez nos programmes de bourses d'études</h3>
+
+        <div class="buttons">
+          <button class="close-btn">Ok, Fermer</button>
+        </div>
+      </div>
+    </section>
+    <!-- *****************************************************************************End Footer ****************************************************************************-->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Animate on Scroll library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>
